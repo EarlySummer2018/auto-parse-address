@@ -3,11 +3,12 @@ uniapp--自动地址解析，智能识别，支持拼多多，京东复制过来
 
 ## 封装来源
 [ldwonday/zh-address-parse](https://github.com/ldwonday/zh-address-parse)
+<br />
 [ldwonday/zh-address-parse](https://github.com/ldwonday/zh-address-parse)
+<br />
 [ldwonday/zh-address-parse](https://github.com/ldwonday/zh-address-parse)
-## Syntax
-
-option可选参数属性列表
+## 参数
+params可选参数属性列表
 
 |参数名|说明|类型|是否必填|默认值|
 |----|----|----|----|----|
