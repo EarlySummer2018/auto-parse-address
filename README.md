@@ -47,3 +47,4 @@ export default {
 </a>
 :laughing:
 :arrow_right:
+:arrow_left:
