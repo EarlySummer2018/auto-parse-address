@@ -45,6 +45,3 @@ export default {
 > 您的支持是我前进的动力，更好的支持开源事业！~
 > 
 </a>
-:laughing:
-:arrow_right:
-:arrow_left:
