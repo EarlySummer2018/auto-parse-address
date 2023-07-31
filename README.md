@@ -2,13 +2,12 @@ uniapp--自动地址解析，智能识别，支持拼多多，京东复制过来
 ===========
 
 ## 封装来源
+
 [ldwonday/zh-address-parse](https://github.com/ldwonday/zh-address-parse)
-<br />
-[ldwonday/zh-address-parse](https://github.com/ldwonday/zh-address-parse)
-<br />
-[ldwonday/zh-address-parse](https://github.com/ldwonday/zh-address-parse)
-## 参数
-params可选参数属性列表
+
+## 参数列表
+
+option可选参数属性列表
 
 |参数名|说明|类型|是否必填|默认值|
 |----|----|----|----|----|
@@ -22,18 +21,20 @@ params可选参数属性列表
 |btnClass|按钮类名|String|否|空|
 
 类型如果设置不生效 请在该类名前面加 /deep/
-## Usage
+## 使用
+
 >[从uniapp插件市场导入](https://ext.dcloud.net.cn/)
-```html
+
+```vue
 <template>
 	<view class="content">
 		<auto-parse-address boxClass="c-box" @result="result"></auto-parse-address>
 	</view>
 </template>
 ```
-
+**自动导入使用**
 ```js
-import AddressParse from '../components/zh-address-parse.vue' //路径修改为自己的实际路径
+import autoAddressParse from '../components/auto-address-parse.vue' //路径修改为自己的实际路径
 export default {
 		components: {
 			'auto-parse-address': autoParseAddress
@@ -42,6 +43,4 @@ export default {
 ```
 
 ## 备注
-> 您的支持是我前进的动力，更好的支持开源事业！~
-> 
-</a>
+> 您的支持是我前进的动力，更好的支持开源事业！可以就给个 star 吧。也不要忘了给[原作者](https://github.com/ldwonday/zh-address-parse)一个 star 哦~
