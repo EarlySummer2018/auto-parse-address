@@ -3,7 +3,7 @@ uniapp--自动地址解析，智能识别，支持拼多多，京东复制过来
 
 ## 封装来源
 
-[ldwonday/zh-address-parse](https://ext.dcloud.net.cn/plugin?id=7738)
+[ldwonday/zh-address-parse](https://ext.dcloud.net.cn/search?q=auto-parse-address)
 
 ## 参数列表
 
@@ -23,7 +23,7 @@ option可选参数属性列表
 类型如果设置不生效 请在该类名前面加 /deep/
 ## 使用
 
->[从uniapp插件市场导入](https://ext.dcloud.net.cn/)
+>[从uniapp插件市场导入](https://ext.dcloud.net.cn/plugin?id=7738)
 
 ```vue
 <template>

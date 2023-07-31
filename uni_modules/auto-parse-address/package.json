@@ -1,7 +1,7 @@
 {
   "id": "auto-parse-address",
   "displayName": "auto-parse-address 自动地址解析",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "地址智能识别，支持拼多多，京东等后台导出的地址格",
   "keywords": [
     "地址自动识别",
