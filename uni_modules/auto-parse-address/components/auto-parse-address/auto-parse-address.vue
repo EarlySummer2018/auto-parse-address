@@ -11,27 +11,28 @@
 	</view>
 </template>
 <script>
-	import AddressParse from '../../dist/js/zh-address-parse.min.js'
+	import AddressParse from './zh-address-parse.min.js'
+	/**
+	 * autoParseAddress 自动解析地址
+	 * auto-parse-address 自动解析地址
+	 * @description 自动解析粘贴过来的地址 本插件是二次开发为uniapp版本，参考来自 [https://github.com/ldwonday/zh-address-parse]
+	 * @tutorial 说明文档 https://github.com/EarlySummer2018/auto-parse-address/blob/main/README.md
+	 * 
+	 * @property {Boolean}			autoHeight		textarea高度自适应, 默认值：true
+	 * @property {String}			placeholder		提示文本 默认值：粘贴收货信息
+	 * @property {Number|String}	parseType		哪种方式解析，0：正则，1：树查找
+	 * @property {Array}			textFilter		预清洗的字段
+	 * @property {Number|String}	nameMaxLength	查找最大的中文名字长度，默认值 4
+	 * @property {String}			boxClass		容器类名，如果不生效 请在该类名前面加 /deep/
+	 * @property {String}			areaClass		textarea 类名，如果不生效 请在该类名前面加 /deep/
+	 * @property {String}			btnClass		按钮类名，如果不生效 请在该类名前面加 /deep/
+	 * @event {Function}			result			解析之后返回结果方法 result()
+	 * @event {Function}			autoParse		点击解析地址
+	 * @return {Object}				返回值			{ province: '', name: '', city: '', area: '', detail: '', phone: '', postalCode: '' }
+	 * @example
+	 * <auto-parse-address boxClass="c-box" @result="result" placeholder="粘贴地址自动解析666"></auto-parse-address>
+	 * */
 	export default {
-		/**
-		 * autoAddressParse 自动解析地址
-		 * 
-		 * @description 自动解析粘贴过来的地址 本插件是二次开发为uniapp版本，参考来自 [https://github.com/ldwonday/zh-address-parse]
-		 * @tutorial https://ldwonday.github.io/zh-address-parse/
-		 * 
-		 * @param {autoHeight}  // textarea 高度自适应, 默认值：true
-		 * @param {placeholder}  // 提示文本 默认值：粘贴收货信息
-		 * @param {parseType}  // 哪种方式解析，0：正则，1：树查找
-		 * @param {textFilter}  // 预清洗的字段
-		 * @param {nameMaxLength}  // 查找最大的中文名字长度，默认值 4\
-		 * @param {boxClass} 容器类名，如果不生效 请在该类名前面加 /deep/
-		 * @param {areaClass} textarea 类名，如果不生效 请在该类名前面加 /deep/
-		 * @param {btnClass} 按钮类名，如果不生效 请在该类名前面加 /deep/
-		 * @event {Function} $emit('result')  // 解析之后返回结果方法 result()
-		 * @event {Function} autoParse 点击解析地址
-		 * @param {parseResult}  // 返回值 parseResult 是一个对象，里面包含
-		 * { province: '', name: '', city: '', area: '', detail: '', phone: '', postalCode: '' }
-		 * */
 		props: {
 			autoHeight: {
 				type: Boolean,

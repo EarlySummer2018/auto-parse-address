@@ -1,35 +1,28 @@
 <template>
 	<view class="content">
-		<auto-parse-address boxClass="c-box" @result="result"></auto-parse-address>
+		<auto-parse-address boxClass="c-box" @result="result" placeholder="粘贴地址自动解析666"></auto-parse-address>
 	</view>
 </template>
 
 <script>
-	import autoParseAddress from '../../uni_modules/R-autoParseAddress/components/R-autoParseAddress/R-autoParseAddress.vue'
 	export default {
-		components: {
-			'auto-parse-address': autoParseAddress
-		},
 		data() {
 			return {
-				value: `收货人: 黄祥瑞
-手机号码: 18344050796
-所在地区: 广东省广州市番禺区大石街道
-详细地址: 广州番禺大山村湾低坊前街15号店`
+				value: `东省深圳市盐田区东海三街山海四季城F4E，张三，13800138001`
 			}
 		},
 		onLoad() {
 
 		},
 		methods: {
-			result(obj) {
-				console.log('obj', obj);
+			result(res) {
+				console.log('res：', res);
 			}
 		}
 	}
 </script>
 
-<style>
+<style lang="scss" scoped>
 	.content {
 		display: flex;
 		flex-direction: column;
@@ -55,8 +48,8 @@
 		font-size: 36rpx;
 		color: #8f8f94;
 	}
-	
+
 	.c-box {
-		min-height: 200upx; 
+		min-height: 200upx;
 	}
 </style>
