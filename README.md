@@ -23,7 +23,7 @@ option可选参数属性列表
 类型如果设置不生效 请在该类名前面加 /deep/
 ## 使用
 
->[从uniapp插件市场导入](https://ext.dcloud.net.cn/)
+>[从uniapp插件市场导入](https://ext.dcloud.net.cn/search?q=auto-parse-address)
 
 ```vue
 <template>
