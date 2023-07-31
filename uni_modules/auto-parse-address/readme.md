@@ -3,7 +3,7 @@ uniapp--自动地址解析，智能识别，支持拼多多，京东复制过来
 
 ## 封装来源
 
-[ldwonday/zh-address-parse](https://github.com/ldwonday/zh-address-parse)
+[ldwonday/zh-address-parse](https://ext.dcloud.net.cn/search?q=auto-parse-address)
 
 ## 参数列表
 
